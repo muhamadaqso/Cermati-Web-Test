@@ -1,0 +1,175 @@
+.masthead {
+    height: 86vh;
+    min-height: 500px;
+    background: url('../img/work-desk__dustin-lee.jpg') center center no-repeat fixed;
+    background-size: cover;
+    overflow: hidden;
+    filter: sepia(80%) hue-rotate(890deg) saturate(700%);
+  }
+  .col-12.text-center {
+      color: white;
+  }
+  .overlay {
+    background: rgba(0, 5, 44, 0.65);
+    color: #fff;
+    overflow: hidden;
+    
+  }
+  .masthead>.overlay {
+    min-height: 86vh;
+  }
+  .container.h-100 {
+      margin-top: 120px;
+  }
+.col-12.text-center .btn {
+    text-transform: uppercase;
+    border-radius: 0 !important;
+    font-weight: 600;
+    border: 2px solid white;
+    height: 54px;
+    width: 221px;
+  }
+.col-12.text-center .btn:hover {
+    background-color: white;
+    color: ​#004a75;
+  }
+section {
+  background-color: #e5e5e5;
+}
+section .row {
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 53px;
+}
+.card {
+  height: 178px;
+  width: 412px;
+  background-color: #e5e5e5;
+}
+.card-title h5 {
+  font-size: 24px;
+}
+.d-flex.alert.alert-light.justify-content-center.align-items-center p {
+  width: 54%;
+  margin-bottom: 0rem !important;
+  font-weight: 600;
+}
+.d-flex.alert.alert-light.justify-content-center.align-items-center button {
+  background-color: #337296;
+  border-color: #337296;
+  padding: .475rem 1.41rem;
+}
+.notification-panel-top {
+  background-color: #e5e5e5;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.alert-light {
+  margin-bottom: 0rem !important;
+  padding: 1.1rem 1.25rem;
+  background-color: #e5e5e5;
+  color: black;
+  border-color: #e5e5e5;
+}
+p.card-text {
+  font-size: 14px;
+  font-weight: 600;
+}
+.container.text-center p.lead {
+  padding: 0 215px;
+  font-size: 18px;
+  font-weight: 600;
+}
+footer {
+  background-color: #04042d;
+  color: #7cabc5;
+}
+.footer-copyright {
+  padding: 36px 0 !important;
+}
+.container.text-center h2.font-weight-light {
+  font-weight: 600 !important;
+  font-size: 32px;
+}
+section.py-5 {
+  padding-top: 4rem!important;
+  padding-bottom: 3.7rem!important;
+}
+main .col-2 {
+  padding-left: 26px;
+  padding-top: 15px;
+}
+
+@media (max-width: 1297px) {
+  .card {
+    height: auto;
+    width: auto;
+  }
+}
+@media (max-width: 992px){
+  .container.text-center p.lead {
+    padding: 0px;
+  }
+  .d-flex.alert.alert-light.justify-content-center.align-items-center { display: block !important;}
+  .d-flex.alert.alert-light.justify-content-center.align-items-center p {
+    width: 100%;
+  }
+}
+@media (max-width:568px) {
+  form.d-flex {display: block !important;}
+  form.d-flex button { margin-top : 5px; width: 100% !important;  }
+  form.d-flex  .form-newsletter {margin-right: 0px !important; width: 100%;} 
+}
+@media (max-width:664px) {
+  #bottomMenu { width: auto !important; height: auto !important;}
+}
+#bottomMenu {
+  display: none;
+  position: fixed;
+  left: 0; bottom: 0;
+  width: 640px; height: 225px;
+  color: white;
+  background-color: rgba(22, 133, 197, 0.88);
+  z-index: 1;
+}
+#bottomMenu .close {
+  padding: 5px;
+  font-size: 1rem;
+  color: white;
+}
+#bottomMenu.alert {
+  padding: 0px !important;
+  margin-bottom: 0px !important;
+  border: 0px !important;
+  border-radius: 0 !important;
+}
+.content-item {
+  margin: 30px;
+}
+#bottomMenu h2 {
+  font-size: 1.8rem;
+}
+#bottomMenu p {
+  font-size: 1.1rem;
+}
+.form-newsletter {
+  width: 460px;
+}
+form.d-flex button {
+  width: 114px;
+  border-radius: 0px !important;
+      padding: .145rem .2rem;
+      background-color: #ff9931;
+    border-color: #ff9931;
+    font-weight: 600;
+}
+.form-newsletter {
+  margin-right: 10px;
+}
+.form-control {
+  height: 30px;
+  border-radius: 0px !important;
+}

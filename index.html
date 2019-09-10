@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wildan Muhamad Aqso | Cermati.com Front-end Developer Entry Test</title>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script>
+      (function() {
+    var $win = $(window);
+    
+    function checkScroll() {
+        if ($win.scrollTop() > 100) {
+            $win.off('scroll', checkScroll);
+            $('#bottomMenu').fadeIn(2000);
+        }
+    }
+    
+    $win.scroll(checkScroll);
+})();
+    </script>
+</head>
+
+<body style="max-width: 1366px">
+  <div class="notification-panel-top sticky-top" id="panel-top">
+      <div class="container d-flex">
+          <div class="row">
+            <div class="col-lg-12">
+                <div class="d-flex alert alert-light justify-content-center align-items-center">
+                  <p>By accessing and using this website, you acknowledge that you have read and understand our <a href="">Cookie Policy, Privacy Policy,</a> and <a href="">Terms of Service</a></p>
+                  <button type="button" class="btn btn-primary" data-dismiss="alert" aria-hidden="true">Got it</button>
+                </div>
+              </div>
+        </div>
+      </div>
+  </div>
+  <div id=bottomMenu class="alert">
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      <div class="content-item">
+          <h2>Get latest updates in web technologies</h2>
+          <p>I write related to web technologies, such as design trends, development tools, UI/UX case studies and reviews, and more. Sign up to my newsletter to get them all.</p>
+          <form class="d-flex" action="">
+              <div class="form-newsletter">
+                  <input type="email" class="form-control" id="email" placeholder="Email Adress" name="email">
+                </div>
+                <button type="submit" class="btn btn-primary">count me in!</button>
+          </form>
+      </div>
+    </div>
+    <header class="masthead">
+     <div class="overlay">
+      <main role="main">
+
+        <div class="col-2">
+          <a class="navbar-brand" href="#"><img src="img/y-logo-white.png" width="55" alt=""></a>
+        </div>
+        <div class="container h-100">
+          <div class="row h-100 justify-content-center align-items-center">
+            <div class="col-12 text-center">
+              <h1 class="font-weight-light">Hello! I'm Wildan</h1>
+              <h3>Consult, Design, and Develop Websites</h3>
+              <p class="lead">Have something great im mind? Feel free to contact me.<br>I'll help you to make it happen</p>
+              <button type="button" class="btn btn-outline-light">Let's Make Contact</button>
+            </div>
+          </div>
+        </div>
+        </main><!--container-->
+        </div><!--overlay-->
+      </header>
+
+      <!-- Page Content -->
+<section class="py-5">
+    <div class="container text-center">
+      <h2 class="font-weight-light">How Can I Help You?</h2>
+      <p class="lead">Our work then targeted, best practices outcomes sosial innovation synergy. Venture philanthropy, revolutionary inclusive policymaker relief. User-centered program areas scale.</p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+          <div class="card card-transparent">
+              <div class="card-body">
+               <div class="card-title d-flex justify-content-between">
+                <h5>Consult</h5>
+                <i class="far fa-comments"></i>
+               </div>
+                <p class="card-text">Co-create, design thinking; strengthen infrasructure resist granular. Revolution circular, movements or framewirk social impact low-hanging fruit. Save the world compelling revolutionary progress.</p>
+              </div>
+            </div>
+      </div>
+        
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <div class="card">
+                <div class="card-body">
+                <div class="card-title d-flex justify-content-between">
+                  <h5>Design</h5>
+                  <i class="fas fa-paint-brush"></i>
+                </div>
+                  <p class="card-text">Policymaker collaborates collective impact humanitarian shared value vocabulary inspire issue outcomes agule. Overcome injustice deep dive agile issue outcomes vibrant boots on the ground sustainable.</p>
+                </div>
+              </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <div class="card">
+                <div class="card-body">
+                  <div class="card-title d-flex justify-content-between">
+                      <h5>Develop</h5>
+                      <i class="fas fa-cubes"></i>
+                  </div>
+                  <p class="card-text">Revolutionary circular, movements a or impact framework social impact low hanging. Save the compelling revolutionary inspire progress. Comllective impacts and challenges for opportunities of thought provoking.</p>
+                </div>
+              </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <div class="card">
+                <div class="card-body">
+                  <div class="card-title d-flex justify-content-between">
+                    <h5>Marketing</h5>
+                    <i class="fas fa-bullhorn"></i>
+                  </div>
+                  <p class="card-text">Peaceful; vibrant paradigm. collaborative cities. Shared vocabulary agile, effective alturism youth. Mobilize commitment to overcome injustice resillient, uplift social transparant effective.</p>
+                </div>
+              </div>
+        </div>
+        
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+              <div class="card">
+                  <div class="card-body">
+                   <div class="card-title d-flex justify-content-between">
+                    <h5>Manage</h5>
+                    <i class="fas fa-tasks"></i>
+                   </div>
+                    <p class="card-text">Change-makers innovation or shared unit of analysis. Overcome injustice outcomes strategize vibrant boots on the ground sustainable. Optimism, effective altruism invest optimism corporate social.</p>
+                  </div>
+                </div>
+          </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                    <div class="card-title d-flex justify-content-between">
+                      <h5>Evolve</h5>
+                      <i class="fas fa-chart-line"></i>
+                    </div>
+                      <p class="card-text">Active caralyze and impact contextualize humanitairan. Unit of analysis overcome injustice storytelling altruism. Thought leadership mass incarceration. Outcomes big data, fairness, social game-change.</p>
+                    </div>
+                  </div>
+            </div>
+      </div><!--row-->
+</section>
+
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2019 Wildan Muhamad Aqso. All right reserved.</div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+</body>
+</html>
